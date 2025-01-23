@@ -1,16 +1,26 @@
 import React from "react";
 import "./Header.css";
+import { Link, NavLink } from "react-router";
 const Header = () => {
   return (
     <div className="header">
       <div className="container">
         <div className="logo">
-          <a href="#">Movies</a>
+          <Link to="/">Movies</Link>
         </div>
         <ul className="nav-links">
-         <li> <a href="">Watchlist</a></li>
-         <li> <a href="">Watched list</a></li>
-            <li> <a className="btn" href="">Add</a></li>
+          <li>
+            {" "}
+            <NavLink to="/">Watchlist</NavLink>
+          </li>
+          <li>
+            {" "}
+            <NavLink to="/watched">Watched list</NavLink>
+          </li>
+          <li>
+            {" "}
+            <NavLink to="/add">Add</NavLink>
+          </li>
         </ul>
       </div>
     </div>

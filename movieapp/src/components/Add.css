@@ -3,6 +3,7 @@
   max-width: 600px;
   margin: 0 auto;
 }
+
 .add-content .input-container input {
   width: 100%;
   background-color: var(--primary);
@@ -11,10 +12,22 @@
   border: none;
   color: var(--white);
   font-size: 1.25rem;
-}
-.results{
-    padding: 0;
-    margin: 0;
-    margin-top: 20px;
+  outline: none;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
+
+.results {
+  padding: 0;
+  margin: 0;
+  margin-top: 20px;
+  list-style: none;
+}
+
+.results li {
+  margin-bottom: 20px;
+}
+
+.results li:last-child {
+  margin-bottom: 0;
+}

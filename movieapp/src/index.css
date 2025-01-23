@@ -6,12 +6,15 @@
   box-sizing: border-box;
 }
 /* css custom variables */
-:root{
-  --primary: #555555; /* Ebony */
-  --secondary: #d4af37; /* Metallic Gold */
-  --white: #fff; /* White */
-  
+:root {
+  --primary: #2c3e50; /* Dark Slate Blue - for the main background */
+  --secondary: #f39c12; /* Vivid Amber - for buttons, highlights, and accents */
+  --accent: #e74c3c; /* Strong Red - for call-to-action buttons or alerts */
+  --white: #ecf0f1; /* Light Grey - for text, background highlights */
+  --dark: #34495e; /* Charcoal - for secondary backgrounds */
+  --light-gray: #bdc3c7; /* Light Gray - for subtle borders and elements */
 }
+
 body {
   font-family: 'Oswald', sans-serif;
 }
