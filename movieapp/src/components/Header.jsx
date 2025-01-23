@@ -9,7 +9,7 @@ const Header = () => {
         </div>
         <ul className="nav-links">
          <li> <a href="">Watchlist</a></li>
-         <li> <a href="">Watchedlist</a></li>
+         <li> <a href="">Watched list</a></li>
             <li> <a className="btn" href="">Add</a></li>
         </ul>
       </div>
